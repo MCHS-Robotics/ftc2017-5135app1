@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Analytics-release-">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/198408e814d9b68ae74a9689b82265d59dcbf9cc/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/198408e814d9b68ae74a9689b82265d59dcbf9cc/output/res" />
+      <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Analytics-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Analytics-release/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
