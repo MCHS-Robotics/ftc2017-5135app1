@@ -41,10 +41,7 @@ public class Trevor_Example1 extends LinearOpMode{
 
     // Servo tilt;
 
-
     //double mPower;
-
-
 
 
 
@@ -168,7 +165,7 @@ public class Trevor_Example1 extends LinearOpMode{
 
 
 
-    public void forward(double power){
+    public void forward(float power){
 
 
         frontleft.setPower(power);
@@ -187,7 +184,7 @@ public class Trevor_Example1 extends LinearOpMode{
 
 
 
-    public void turn(double power){
+    public void turn(float power){
 
 
         frontleft.setPower(-power);
@@ -206,7 +203,7 @@ public class Trevor_Example1 extends LinearOpMode{
 
 
 /**
-    public void lift(double power){
+    public void lift(float power){
 
 
         lift.setPower(power);
@@ -214,17 +211,17 @@ public class Trevor_Example1 extends LinearOpMode{
 
     }
  **/
-    public void strafeR(double power){
+    public void strafeR(float power){
         frontright.setPower(-power);
         backright.setPower(power);
         frontleft.setPower(power);
-        backright.setPower(-power);
+        backleft.setPower(-power);
     }
-    public void strafeL(double power){
+    public void strafeL(float power){
         frontright.setPower(power);
         backright.setPower(-power);
         frontleft.setPower(-power);
-        backright.setPower(power);
+        backleft.setPower(power);
     }
 
 
